@@ -47,9 +47,9 @@ def somme_liste(l):
     pass
 
 
-# 11. Retourne a puissance b
+# 11. Retourne a puissance b Arnaud
 def puissance(a, b):
-    pass
+    return a.pow(b)
 
 
 # 12. Retourne l'inverse du nombre
@@ -57,9 +57,11 @@ def inverse(a):
     pass
 
 
-# 13. Retourne une version triée de la liste
+# 13. Retourne une version triée de la liste Arnaud
 def tri(l): 
-    pass
+    copy = l.copy()
+    copy.sort()
+    return copy
 
 
 # 14. Retourne la factorielle de la valeur

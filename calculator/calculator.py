@@ -59,7 +59,9 @@ def inverse(a):
 
 # 13. Retourne une version triée de la liste Arnaud
 def tri(l): 
-    return l.sort()
+    copy = l.copy()
+    copy.sort()
+    return copy
 
 
 # 14. Retourne la factorielle de la valeur

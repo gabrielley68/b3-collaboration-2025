@@ -68,8 +68,8 @@ def factoriel(a):
 
 # 15. Retourne la plus grande valeur de la liste
 def maximum(l):
-    m = max(l)
-    return m
+    return max(l)
+
 
 
 # 16. Retourne le logarithme (en base de 10) de la valeur

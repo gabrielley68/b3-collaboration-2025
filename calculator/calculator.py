@@ -64,7 +64,7 @@ def tri(l):
 
 # 14. Retourne la factorielle de la valeur
 def factoriel(a):
-    pass
+    return 1 if a == 0 else a * factoriel(a - 1)
 
 # 15. Retourne la plus grande valeur de la liste
 def maximum(l):

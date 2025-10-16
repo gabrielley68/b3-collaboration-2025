@@ -54,7 +54,7 @@ def puissance(a, b):
 
 # 12. Retourne l'inverse du nombre
 def inverse(a):
-     pass
+    pass
 
 
 # 13. Retourne une version triée de la liste Arnaud

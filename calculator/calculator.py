@@ -54,12 +54,12 @@ def puissance(a, b):
 
 # 12. Retourne l'inverse du nombre
 def inverse(a):
-    return a.sort()
+     pass
 
 
 # 13. Retourne une version triée de la liste Arnaud
 def tri(l): 
-    pass
+    return l.sort()
 
 
 # 14. Retourne la factorielle de la valeur

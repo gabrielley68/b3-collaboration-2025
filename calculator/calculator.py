@@ -81,7 +81,7 @@ def logarithme(a):
 
 # 17. Retourne le logarithme népérien de la valeur
 def logarithme_neperien(x):
-    return math.log10(x)*math.log(x)
+    return math.log10(x) * math.log(x)
 
 
 # 18. Retourne la plus petite valeur de la liste

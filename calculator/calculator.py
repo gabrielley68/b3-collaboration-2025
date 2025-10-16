@@ -34,7 +34,7 @@ def valeur_absolue(a):
 
 # 8. Retourne la valeur au carré
 def carre(a):
-    pass
+    return a * a
 
 
 # 9. Retourne la racine carré de la valeur
@@ -70,7 +70,8 @@ def factoriel(a):
 
 # 15. Retourne la plus grande valeur de la liste
 def maximum(l):
-    pass
+    return max(l)
+
 
 
 # 16. Retourne le logarithme (en base de 10) de la valeur

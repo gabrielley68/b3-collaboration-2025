@@ -57,7 +57,6 @@ def inverse(a):
     pass
 
 
-
 # 13. Retourne une version triée de la liste
 def tri(l): 
     pass
@@ -74,4 +73,14 @@ def maximum(l):
 
 # 16. Retourne le logarithme (en base de 10) de la valeur
 def logarithme(a):
+    pass
+
+
+# 17. Retourne le logarithme népérien de la valeur
+def logarithme_neperien(x):
+    pass
+
+
+# 18. Retourne la plus petite valeur de la liste
+def minimum(l):
     pass

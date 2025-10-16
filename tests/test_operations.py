@@ -67,3 +67,9 @@ class TestOperations(unittest.TestCase):
 
     def test_logarithme(self):
         self.assertEqual(calculator.logarithme(100), 2)
+
+    def test_logarithme_neperien(self):
+        self.assertAlmostEqual(calculator.logarithme_neperien(15), 2.7)
+
+    def test_minimum(self):
+        self.assertEqual(calculator.maximum([1, -4, 200, 47]), -4)

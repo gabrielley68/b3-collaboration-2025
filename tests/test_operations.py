@@ -72,4 +72,4 @@ class TestOperations(unittest.TestCase):
         self.assertAlmostEqual(calculator.logarithme_neperien(15), 2.7)
 
     def test_minimum(self):
-        self.assertEqual(calculator.maximum([1, -4, 200, 47]), -4)
+        self.assertEqual(calculator.minimum([1, -4, 200, 47]), -4)

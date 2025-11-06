@@ -86,5 +86,4 @@ def logarithme_neperien(x):
 
 # 18. Retourne la plus petite valeur de la liste
 def minimum(l):
-    print(min(l))
     return min(l)

@@ -20,9 +20,9 @@ def division(a, b):
 
 # 5. Quotient de la division euclidienne (ou division entière)
 def quotient(a, b):
-    pass
-
-
+    return a // b
+     
+     
 # 6. Reste de la division euclidienne
 def reste(a, b):
     return a % b
@@ -44,7 +44,8 @@ def racine_carre(a):
 
 # 10. Retourne la somme des éléments de la liste
 def somme_liste(l):
-    pass
+    
+    return sum(l)
 
 
 # 11. Retourne a puissance b Arnaud

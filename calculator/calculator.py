@@ -1,3 +1,6 @@
+import math
+
+
 # 1. Addition basique
 def addition(a, b):
     pass
@@ -39,7 +42,7 @@ def carre(a):
 
 # 9. Retourne la racine carré de la valeur
 def racine_carre(a):
-    pass
+    return a**0.5
 
 
 # 10. Retourne la somme des éléments de la liste
@@ -82,7 +85,7 @@ def logarithme(a):
 
 # 17. Retourne le logarithme népérien de la valeur
 def logarithme_neperien(x):
-    pass
+    return math.log10(x) * math.log(x)
 
 
 # 18. Retourne la plus petite valeur de la liste

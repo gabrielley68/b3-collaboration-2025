@@ -20,6 +20,10 @@ class TestOperations(unittest.TestCase):
     def test_division(self):
         self.assertEqual(calculator.division(10, 2), 5)
 
+    def test_division_by_zero(self):
+        with self.assertRaises(ValueError):
+            calculator.division(10, 0)
+
     def test_quotient(self):
         self.assertEqual(calculator.quotient(13, 2), 6)
 

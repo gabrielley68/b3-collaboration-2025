@@ -33,7 +33,10 @@ def reste(a, b):
 
 # 7. Retourne le nombre sans tenir compte de son signe
 def valeur_absolue(a):
-    pass
+    if (a <= 0):
+        return -a
+    else:
+        return a
 
 # 8. Retourne la valeur au carré
 def carre(a):
@@ -90,4 +93,4 @@ def logarithme_neperien(x):
 
 # 18. Retourne la plus petite valeur de la liste
 def minimum(l):
-    pass
+    return min(l)

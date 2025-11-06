@@ -10,7 +10,7 @@ def soustraction(a, b):
 
 # 3. Multiplication basique
 def multiplication(a, b):
-    pass
+    return a * b 
 
 
 # 4. Division basique
@@ -54,7 +54,7 @@ def puissance(a, b):
 
 # 12. Retourne l'inverse du nombre
 def inverse(a):
-    pass
+    return 1 / a
 
 
 # 13. Retourne une version triée de la liste Arnaud
